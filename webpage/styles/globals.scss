@@ -1,0 +1,22 @@
+
+// Bootstrap
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/mixins";
+
+$theme-colors: (
+    "info": tomato,
+    "whatsapp": #25D366,
+);
+
+//@import "./bootstrap";
+//@import "~bootstrap/scss/variables";
+@import "./bootswatch_cyborg_variables";
+
+
+@import "~bootstrap/scss/bootstrap";
+@import "./bootswatch_cyborg";
+
+// Custom
+
+@import "./customs.scss";
